@@ -185,6 +185,7 @@
 #prefooter1 {
     height: 0.25rem;
     border-top: grey thin solid;
+    margin-top: 4rem;
 }
 
 #prefooter2 {
@@ -194,12 +195,11 @@
 }
 
 footer {
-    height: 8rem;
     background-color: orange;
 }
 
-#content {
-    height: 25rem;
+.spacer {
+    height: 4rem;
 }
 
 .ball {
@@ -224,4 +224,97 @@ footer {
 .balls {
     width: 33%;
     margin: auto;
+}
+
+#about_card {
+    background-color: floralwhite;
+    width: 15rem;
+    height: 21rem;
+    border: none;
+    box-shadow: 0 0 2px whitesmoke;
+    filter: blur(0.5px);
+    /* border: thin black solid; */
+}
+
+.red {
+    color: #ef7676;
+}
+
+.blue{
+    /*color: #2196F3;*/
+    color: #7fbfe7;
+}
+
+#card_photo {
+    width: 13rem;
+    height: 16rem;
+    border: thin black solid;
+    margin: 1rem auto 0;
+    /*background-image: url("head_small.png");*/
+    /*background-size: contain;*/
+}
+
+#card_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#card_sub {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#card_name, #card_sub {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#flag {
+    position: absolute;
+    z-index: 1;
+}
+
+#head {
+    max-height: 16rem;
+    filter: saturate(0.8) contrast(1.2);
+}
+
+#words {
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    transform: rotate(-14deg);
+    margin-left: 1.2rem;
+    color: floralwhite;
+    font-size: 2rem;
+    position: absolute;
+    line-height: 4rem;
+    font-style: italic;
+}
+
+#words2 {
+ font-size: 1.8rem;
+}
+
+#words3 {
+    font-size: 1.5rem;
+}
+
+#words4 {
+    font-size: 1.3rem;
+}
+
+#words5 {
+    font-size: 1.1rem;
+}
+
+#words6 {
+    font-size: 0.9rem;
+}
+
+#no_i {
+    font-style: normal;
+    color: yellow;
+    margin-left: 0.1rem;
 }
