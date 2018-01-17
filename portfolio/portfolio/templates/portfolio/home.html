@@ -2,36 +2,60 @@
 {% block content %}
 {% load static %}
 <div id="top_card">
-<div id="sides">
-<div id="sides2">
-<div class='spacer'></div>
-<div class='container' id='about_section'>
-  <div class='row'>  
-    <div class="col-lg-4">
-      <img id="overlay" src="{% static 'portfolio/over_twooo.png'%}" alt="">
-      <div class="card" id="about_card">
-        <img id="flag" src="{% static 'portfolio/blue_tri.png'%}" alt="">
-        <p id="words"><span id="no_i"><i class="fa fa-coffee" aria-hidden="true"></i></span>H<span id="words2">I</span><span id="words3">R</span><span id="words4">E</span><span id="words5"> M</span><span id="words6">E</span><span id="words7">!</span></p>
-          <div id='card_photo'>
-            <img id="head" src="{% static 'portfolio/crop_two.png'%}" alt="">
+  <div id="sides">
+    <div id="sides2">
+      <!-- Top half top edge -->
+      <div class='spacer'></div>
+      <div class='container' id='about_section'>
+        <div class='row'>  
+          <div class="col-lg-4">
+            <!-- <div id="overs"> -->
+      <!--       <p><img id="over1" class="overlay" src="{% static 'portfolio/overone.png'%}" alt=""></p>
+            <p><img id="over2" class="overlay" src="{% static 'portfolio/overtwo.png'%}" alt=""></p>
+            <p><img id="over3" class="overlay" src="{% static 'portfolio/overthree.png'%}" alt=""></p>
+            <p><img id="over4" class="overlay" src="{% static 'portfolio/overfour.png'%}" alt=""></p>
+            <p><img id="over5" class="overlay" src="{% static 'portfolio/overfive.png'%}" alt=""></p>
+            <p><img id="over6" class="overlay" src="{% static 'portfolio/oversix.png'%}" alt=""></p>
+            <p><img id="over7" class="overlay" src="{% static 'portfolio/overseven.png'%}" alt=""></p> -->
+            <!-- <p><img id="over8" class="overlay" src="{% static 'portfolio/overeight.png'%}" alt=""></p> -->
+      <!--       <p><img id="over9" class="overlay" src="{% static 'portfolio/overnine.png'%}" alt=""></p> -->
+            <!-- </div> -->
+            <img id="over8" class="overlay" src="{% static 'portfolio/overeight.png'%}" alt="">
+
+            <div class="card" id="about_card">
+              <img id="flag" src="{% static 'portfolio/blue_tri.png'%}" alt="">
+              <p id="words"><span id="no_i"><i class="fa fa-coffee" aria-hidden="true"></i></span>C<span id="words2">O</span><span id="words3">F</span><span id="words4">F</span><span id="words5">E</span><span id="words6">E</span><span id="words7">!</span></p>
+                <div id='card_photo'>
+                  <img id="head" src="{% static 'portfolio/crop_two.png'%}" alt="">
+                </div>
+                <div id="card_name"><span class="red"> G<span class="blue">A</span>B<span class="blue">R</span>I<span class="blue">E</span>L <span class="blue">M</span>E<span class="blue">R</span>I<span class="blue">N</span>G<span class="blue">O</span>L<span class="blue">O</span></span></div>
+                <div id="card_sub">
+                  FULL-STACK &#8226; DEVELOPER
+                </div>
+            </div>
           </div>
-          <div id="card_name"><span class="red"> G<span class="blue">A</span>B<span class="blue">R</span>I<span class="blue">E</span>L <span class="blue">M</span>E<span class="blue">R</span>I<span class="blue">N</span>G<span class="blue">O</span>L<span class="blue">O</span></span></div>
-          <div id="card_sub">
-            FULL-STACK &#8226; DEVELOPER
+          <div class="col-lg-6" id="about-para">
+            <p>Hi, my name is Gabriel Meringolo and I'm a New York born software developer & designer currently based out of Seattle. 
+
+Originally a traditionally trained Chef with an attention to detail. I now bring the dedication, work ethic and drive assoicated with kitchen life to the tech world.
+
+Fullstack developer with a focus on UX/UI. Will write code for Mets tickets.</p>
           </div>
+        </div>
       </div>
+      
+    <!-- Top half bottom edge -->
     </div>
   </div>
 </div>
-</div>
-</div>
-</div>
-
+<!-- Nothing goes here -->
 <div id="bottom_card">  
-<div id="sides3">
-<div id="sides4">
-<div class='spacer2'></div>
-</div>
-</div>
+  <div id="sides3">
+    <div id="sides4">
+      <!-- Bottom half top edge -->
+    <div class='spacer2'></div>
+    <!-- Bottom half bottom edge -->
+    </div>
+  </div>
 </div>
 {% endblock content %}
