@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{% static 'portfolio/style.css'%}">
 
   <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:500,700" rel="stylesheet">
 
   <!-- Font Awesome -->
@@ -42,13 +42,13 @@
         <a class="nav-link" id='yellow' href="#">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id='yellow' href="#">About</a>
+        <a class="nav-link" id='yellow' href="{% url 'home' %}#about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" id='yellow' href="#">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id='yellow' href="#">Contact</a>
+        <a class="nav-link" id='yellow' href="{% url 'home' %}#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -61,6 +61,9 @@
 <div id='prefooter2'></div>
 <footer>
   <div class='container'>
+    <div class="text-center">
+        <p id="contact_me">CONTACT ME</p>
+    </div>
     <div class='row balls'>
       <div class="ball-box">
         <div class='ball'>    
@@ -85,7 +88,7 @@
       </div>
       <div class="ball-box">
         <div class='ball'>
-          <a href="mailto:gabriel.meringolo@gmail.com"> 
+          <a name="contact" href="mailto:gabriel.meringolo@gmail.com"> 
             <i class="fa fa-envelope-o" aria-hidden="true"></i>
           </a>
         </div>
