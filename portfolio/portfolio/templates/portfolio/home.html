@@ -1,22 +1,37 @@
 {% extends "portfolio/base.html" %}
 {% block content %}
 {% load static %}
-<div class='spacer'>
-    
-</div>
+<div id="top_card">
+<div id="sides">
+<div id="sides2">
+<div class='spacer'></div>
 <div class='container' id='about_section'>
   <div class='row'>  
-    <div class="card" id="about_card">
-      <img id="flag" src="{% static 'portfolio/blue_tri.png'%}" alt="">
-      <p id="words"><span id="no_i">♢</span>S<span id="words2">N</span><span id="words3">A</span><span id="words4">K</span><span id="words5">E</span><span id="words6">S</span></p>
-        <div id='card_photo'>
-          <img id="head" src="{% static 'portfolio/crop_two.png'%}" alt="">
-        </div>
-        <div id="card_name"><span class="red"> G<span class="blue">A</span>B<span class="blue">R</span>I<span class="blue">E</span>L <span class="blue">M</span>E<span class="blue">R</span>I<span class="blue">N</span>G<span class="blue">O</span>L<span class="blue">O</span></span></div>
-        <div id="card_sub">
-          FULL-STACK &#8226; DEVELOPER
-        </div>
+    <div class="col-lg-4">
+      <img id="overlay" src="{% static 'portfolio/over_twooo.png'%}" alt="">
+      <div class="card" id="about_card">
+        <img id="flag" src="{% static 'portfolio/blue_tri.png'%}" alt="">
+        <p id="words"><span id="no_i"><i class="fa fa-coffee" aria-hidden="true"></i></span>H<span id="words2">I</span><span id="words3">R</span><span id="words4">E</span><span id="words5"> M</span><span id="words6">E</span><span id="words7">!</span></p>
+          <div id='card_photo'>
+            <img id="head" src="{% static 'portfolio/crop_two.png'%}" alt="">
+          </div>
+          <div id="card_name"><span class="red"> G<span class="blue">A</span>B<span class="blue">R</span>I<span class="blue">E</span>L <span class="blue">M</span>E<span class="blue">R</span>I<span class="blue">N</span>G<span class="blue">O</span>L<span class="blue">O</span></span></div>
+          <div id="card_sub">
+            FULL-STACK &#8226; DEVELOPER
+          </div>
+      </div>
     </div>
   </div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="bottom_card">  
+<div id="sides3">
+<div id="sides4">
+<div class='spacer2'></div>
+</div>
+</div>
 </div>
 {% endblock content %}

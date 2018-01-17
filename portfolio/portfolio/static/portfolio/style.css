@@ -1,3 +1,11 @@
+#top_card {
+    background-color: #f94b4e;
+}
+
+#bottom_card {
+    background-color: orange;
+}
+
 .navbar {
     padding-bottom: 0;
 } 
@@ -80,7 +88,15 @@
                   10px 10px 2px black,
                   11px 11px 2px black,
                   12px 12px 2px black,
-                  13px 13px 2px black;
+                  13px 13px 2px black,
+                  20px 13px 2px black,
+                  24px 13px 2px black,
+                  28px 13px 2px black,
+                  32px 13px 2px black,
+                  34px 13px 2px black,
+                  38px 13px 2px black,
+                  40px 13px 2px black,
+                  41px 13px 2px black;
 }
 
 #logo3 {
@@ -100,7 +116,9 @@
                   9px 9px 2px black,
                   10px 10px 2px black,
                   11px 11px 2px black,
-                  12px 12px 2px black;
+                  12px 12px 2px black,
+                  13px 13px 2px black,
+                  14px 13px 2px black;
     padding-right: 1rem;
 }
 
@@ -178,14 +196,14 @@
 }
 
 #postnav {
-    height: 0.25rem;
-    border-bottom: grey thin solid;
+    /*height: 0.25rem;*/
+    /*border-bottom: grey thin solid;*/
 }
 
 #prefooter1 {
-    height: 0.25rem;
-    border-top: grey thin solid;
-    margin-top: 4rem;
+    /*height: 0.25rem;*/
+    /*border-top: grey thin solid;*/
+    /*margin-top: 4rem;*/
 }
 
 #prefooter2 {
@@ -200,6 +218,10 @@ footer {
 
 .spacer {
     height: 4rem;
+}
+
+.spacer2 {
+    height: 10rem;
 }
 
 .ball {
@@ -227,13 +249,27 @@ footer {
 }
 
 #about_card {
+    margin-left: 4rem;
     background-color: floralwhite;
-    width: 15rem;
+    width: 15rem !important;
     height: 21rem;
     border: none;
     box-shadow: 0 0 2px whitesmoke;
     filter: blur(0.5px);
-    /* border: thin black solid; */
+    position: relative;
+}
+
+#overlay {
+    position: absolute;
+    width: 15rem;
+    height: 21rem;
+    margin-left: 3.9rem;
+    opacity: 0; 
+    z-index: 10;
+}
+
+#overlay:hover {
+    opacity: 1;
 }
 
 .red {
@@ -250,8 +286,6 @@ footer {
     height: 16rem;
     border: thin black solid;
     margin: 1rem auto 0;
-    /*background-image: url("head_small.png");*/
-    /*background-size: contain;*/
 }
 
 #card_name {
@@ -285,7 +319,7 @@ footer {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     transform: rotate(-14deg);
-    margin-left: 1.2rem;
+    margin-left: 1.4rem;
     color: floralwhite;
     font-size: 2rem;
     position: absolute;
@@ -313,8 +347,48 @@ footer {
     font-size: 0.9rem;
 }
 
+#words7 {
+    font-size: 0.7rem;
+}
+
 #no_i {
     font-style: normal;
     color: yellow;
     margin-left: 0.1rem;
+}
+
+#sides {
+    background-color: white;
+    border-left: solid 1rem #f94b4e;
+    border-right: solid 1rem #f94b4e;
+    border-top: solid 1rem #f94b4e;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#sides2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: thin solid grey;
+    border-left: thin solid grey;
+    border-right: thin solid grey;
+    margin: 0.25rem 0.25rem 0;
+}
+
+#sides3 {
+    background-color: white;
+    border-left: solid 1rem orange;
+    border-right: solid 1rem orange;
+    border-bottom: solid 1rem orange;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#sides4 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: thin solid grey;
+    border-left: thin solid grey;
+    border-right: thin solid grey;
+    margin: 0 0.25rem 0.25rem;
 }
