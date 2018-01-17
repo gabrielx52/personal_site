@@ -1,0 +1,105 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'portfolio/style.css'%}">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:500,700" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/86db0bfdd3.js"></script>
+
+  <title>Gabriel Now!</title>
+</head>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f94b4e;">
+  <div class="navbar-brand clip-me">
+    <span id='gabriel'>
+      <span id='logo4'>G</span><span id='logo1'>ABRIE</span><span id='logo5'>L</span>
+    </span>
+    <span id='meringolo'>
+      <span id='logo2'>MERINGOL</span><span id='logo3'>O</span>
+    </span>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" id='yellow' href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id='yellow' href="{% url 'home' %}#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id='yellow' href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id='yellow' href="{% url 'home' %}#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div id='postnav'></div>
+
+{% block content %}
+{% endblock content %}
+<div id='prefooter1'></div>
+<div id='prefooter2'></div>
+<footer>
+  <div class='container'>
+    <div class="text-center">
+        <p id="contact_me">CONTACT ME</p>
+    </div>
+    <div class='row balls'>
+      <div class="ball-box">
+        <div class='ball'>    
+          <a href="https://github.com/gabrielx52">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="ball-box">
+        <div class='ball'>
+          <a href="https://www.linkedin.com/in/gabriel-meringolo/">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="ball-box">      
+        <div class='ball'>
+          <a href="https://angel.co/gabriel-meringolo"> 
+            <i class="fa fa-angellist" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="ball-box">
+        <div class='ball'>
+          <a name="contact" href="mailto:gabriel.meringolo@gmail.com"> 
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- <p>All rights reserved Gabriel Meringolo</p> -->
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+</html>

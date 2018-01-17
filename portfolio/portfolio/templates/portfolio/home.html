@@ -1,0 +1,83 @@
+{% extends "portfolio/base.html" %}
+{% block content %}
+{% load static %}
+<div id="top_card">
+  <div id="sides">
+    <div id="sides2">
+      <!-- Top half top edge -->
+      <div class='spacer'></div>
+      <div class='container' id='about_section'>
+        <a name="about"></a>
+        <div class='row'>  
+          <div class="col-lg-4" id="front_card">
+            <img id="over8" class="overlay" src="{% static 'portfolio/overeight.png'%}" alt="">
+            
+            <div class="card" id="about_card">
+              <img id="flag" src="{% static 'portfolio/blue_tri.png'%}" alt="">
+              <p id="words"><span id="no_i"><i class="fa fa-coffee" aria-hidden="true"></i></span>C<span id="words2">O</span><span id="words3">F</span><span id="words4">F</span><span id="words5">E</span><span id="words6">E</span><span id="words7">!</span></p>
+                <div id='card_photo'>
+                  <img id="head" src="{% static 'portfolio/crop_two.png'%}" alt="">
+                </div>
+                <div id="card_name"><span class="red"> G<span class="blue">A</span>B<span class="blue">R</span>I<span class="blue">E</span>L <span class="blue">M</span>E<span class="blue">R</span>I<span class="blue">N</span>G<span class="blue">O</span>L<span class="blue">O</span></span></div>
+                <div id="card_sub">
+                  FULL-STACK &#8226; DEVELOPER
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-6" id="back_card">
+            <div class="card" id="about-para">
+              <div id="back-top">
+                <div id="back_top_row">
+                  <span id="back_name">ABOUT ME</span> <span id="card_sub" class="city_color">Seattle - New York</span>
+                  <table id="stat_tab">
+                    <tr>
+                      <th colspan="3">Technical Skills</th>
+                    </tr>
+                    <tr>
+                      <td>Python</td>
+                      <td>Django</td>
+                      <td>HTML/CSS</td>
+                    </tr>
+                    <tr>
+                      <td>Javascript</td>
+                      <td>JQuery</td>
+                      <td>SQL</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div id="back-bottom">
+                <p>Full-Stack software engineer with an emphasis on test driven development. Familiar with object-oriented programming, data structures and database design. Over ten years of experience as a leader, team player and craftsman. </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+    <!-- Top half bottom edge -->
+    </div>
+  </div>
+</div>
+<!-- Nothing goes here -->
+<div id="bottom_card">  
+  <div id="sides3">
+    <div id="sides4">
+      <!-- Bottom half top edge -->
+      <div class="container">        
+        <div class='spacer2'></div>
+        <div class="row">
+          <div id="star-five"><span class="star-words">Testssss</span></div>
+        </div>
+        <div class="row">
+          <div id="star-five"></div>
+        </div>
+        <div class="row">
+          <div id="star-five"></div>
+        </div>
+      </div>
+      <div class='spacer2'></div>
+    <!-- Bottom half bottom edge -->
+    </div>
+  </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,543 @@
+#top_card {
+    background-color: #f94b4e;
+}
+
+#bottom_card {
+    background-color: orange;
+}
+
+.navbar {
+    padding-bottom: 0;
+} 
+
+.clip-me {
+}
+
+#logo1, #logo2, #logo3, #logo4, #logo5 {
+    color: #7fbfe7;
+    letter-spacing: -1.1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+#logo1 {
+    text-shadow:  0 0 2px #7fbfe7,
+                  -1px 0  2px black,
+                  0 1px 2px black,
+                  1px 0 2px black,
+                  0 -1px 2px black,
+                  1px 1px 2px black,
+                  2px 2px 2px black,
+                  3px 3px 2px black,
+                  4px 4px 2px black,
+                  5px 5px 2px black,
+                  6px 6px 2px black,
+                  7px 7px 2px black,
+                  8px 8px 2px black,
+                  9px 9px 2px black,
+                  10px 10px 2px black,
+                  11px 11px 2px black,
+                  12px 12px 2px black,
+                  13px 13px 2px black,
+                  14px 14px 2px black,
+                  15px 15px 2px black,
+                  16px 16px 2px black,
+                  17px 17px 2px black,
+                  18px 18px 2px black,
+                  19px 19px 2px black,
+                  20px 20px 2px black,
+                  21px 21px 2px black,
+                  22px 22px 2px black,
+                  23px 23px 2px black,
+                  24px 24px 2px black,
+                  25px 25px 2px black,
+                  26px 26px 2px black,
+                  27px 27px 2px black,
+                  28px 28px 2px black,
+                  29px 29px 2px black,
+                  30px 30px 2px black,
+                  31px 31px 2px black,
+                  32px 32px 2px black,
+                  33px 33px 2px black,
+                  34px 34px 2px black,
+                  35px 35px 2px black,
+                  36px 36px 2px black,
+                  37px 37px 2px black,
+                  38px 38px 2px black;
+}
+
+#logo2 {
+    text-shadow:  0 0 2px #7fbfe7,
+                  -1px 0 2px black,
+                  0 1px 2px black,
+                  1px 0 2px black,
+                  0 -1px 2px black,
+                  1px 1px 2px black,
+                  2px 2px 2px black,
+                  3px 3px 2px black,
+                  4px 4px 2px black,
+                  5px 5px 2px black,
+                  6px 6px 2px black,
+                  7px 7px 2px black,
+                  8px 8px 2px black,
+                  9px 9px 2px black,
+                  10px 10px 2px black,
+                  11px 11px 2px black,
+                  12px 12px 2px black,
+                  13px 13px 2px black,
+                  20px 13px 2px black,
+                  24px 13px 2px black,
+                  28px 13px 2px black,
+                  32px 13px 2px black,
+                  34px 13px 2px black,
+                  38px 13px 2px black,
+                  40px 13px 2px black,
+                  41px 13px 2px black;
+}
+
+#logo3 {
+    text-shadow:  0 0 2px #7fbfe7,
+                  -1px 0 2px black,
+                  0 1px 2px black,
+                  1px 0 2px black,
+                  0 -1px 2px black,
+                  1px 1px 2px black,
+                  2px 2px 2px black,
+                  3px 3px 2px black,
+                  4px 4px 2px black,
+                  5px 5px 2px black,
+                  6px 6px 2px black,
+                  7px 7px 2px black,
+                  8px 8px 2px black,
+                  9px 9px 2px black,
+                  10px 10px 2px black,
+                  11px 11px 2px black,
+                  12px 12px 2px black,
+                  13px 13px 2px black,
+                  14px 13px 2px black;
+    padding-right: 1rem;
+}
+
+
+#logo4 {
+    text-shadow:  0 0 2px #7fbfe7,
+                  -1px 0 2px black,
+                  0 1px 2px black,
+                  1px 0 2px black,
+                  0 -1px 2px black,
+                  1px 1px 2px black,
+                  2px 2px 2px black,
+                  3px 3px 2px black,
+                  4px 4px 2px black,
+                  5px 5px 2px black,
+                  6px 6px 2px black,
+                  7px 7px 2px black,
+                  8px 8px 2px black,
+                  9px 9px 2px black,
+                  10px 10px 2px black,
+                  11px 11px 2px black,
+                  12px 12px 2px black,
+                  13px 13px 2px black,
+                  18px 13px 2px black,
+                  20px 15px 2px black,
+                  13px 20px 2px black;
+}
+
+#logo5 {
+    text-shadow:  0 0 2px #7fbfe7,
+                  -1px 0 2px black,
+                  0 1px 2px black,
+                  1px 0 2px black,
+                  0 -1px 2px black,
+                  1px 1px 2px black,
+                  2px 2px 2px black,
+                  3px 3px 2px black,
+                  4px 4px 2px black,
+                  5px 5px 2px black,
+                  6px 6px 2px black,
+                  7px 7px 2px black,
+                  8px 8px 2px black,
+                  9px 9px 2px black,
+                  10px 10px 2px black,
+                  11px 11px 2px black,
+                  12px 12px 2px black,
+                  13px 13px 2px black,
+                  14px 14px 2px black;
+    padding-right: 1rem;
+}
+
+#gabriel {
+    line-height: 1px;
+    display: block;
+    margin-top: 20px;
+
+}
+
+#meringolo {
+    position: relative;
+    bottom: 10px;
+}
+
+#yellow {
+    color: yellow;
+    text-shadow:  0 0 1px yellow;
+}
+
+#yellow:hover {
+    color: orange;
+}
+
+.sr-only {
+    color: black !important;
+}
+
+#postnav {
+}
+
+#prefooter1 {
+}
+
+#prefooter2 {
+}
+
+footer {
+    background-color: orange;
+}
+
+.spacer {
+    height: 4rem;
+}
+
+.spacer2 {
+    height: 10rem;
+}
+
+.ball {
+    background-color: white;
+    border: thin solid black;
+    color: red;
+    border-radius: 50%;
+    height: 100%;
+    text-align: center;
+    /*margin: 1rem;*/
+    box-shadow: 0 0 1px black;
+    padding-bottom: 100%;
+}
+
+.ball-box {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto 1rem;
+}
+
+.ball .fa {
+    color: red;
+    margin-top: 0.7rem;
+    font-size: 2rem;
+    text-shadow:  0 0 1px red;
+}
+
+.balls {
+    width: 33%;
+    margin: auto;
+}
+
+#about_card {
+    margin-left: 4rem;
+    background-color: floralwhite;
+    width: 17rem !important;
+    height: 23rem;
+    border: none;
+    box-shadow: 0 0 2px whitesmoke;
+    filter: blur(0.5px);
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 17rem;
+    height: 23rem;
+    margin-left: 4.2rem;
+    z-index: 10;
+    opacity: 0;
+
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+#overs:hover p {
+    opacity: 1;
+}
+
+.red {
+    color: #ef7676;
+}
+
+.blue{
+    color: #7fbfe7;
+}
+
+#card_photo {
+    width: 13rem;
+    height: 17rem;
+    /*border: thin black solid;*/
+    margin: 1rem auto 0;
+}
+
+#card_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#card_sub {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#card_name, #card_sub {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#flag {
+    position: absolute;
+    z-index: 1;
+}
+
+#head {
+    max-height: 17rem;
+    filter: saturate(0.8) contrast(1.2);
+}
+
+#words {
+    z-index: 2;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    transform: rotate(-14deg);
+    margin-left: 1.4rem;
+    color: floralwhite;
+    font-size: 2rem;
+    position: absolute;
+    line-height: 4rem;
+    font-style: italic;
+}
+
+#about-para {
+    filter: blur(0.4px);
+    background-color: floralwhite;
+    box-shadow: 0 0 2px whitesmoke;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    height: 18rem;
+    margin-top: 9rem;
+    width: 28rem;
+    border: none;
+}
+
+#back-top {
+    width: 99%;
+    height: 9rem;
+    margin: 0.3rem auto 0;
+    background-color: #edb047;
+    box-shadow: 0 0 2px #edb047;
+}
+
+#words2 {
+ font-size: 1.8rem;
+}
+
+#words3 {
+    font-size: 1.5rem;
+}
+
+#words4 {
+    font-size: 1.3rem;
+}
+
+#words5 {
+    font-size: 1.1rem;
+}
+
+#words6 {
+    font-size: 0.9rem;
+}
+
+#words7 {
+    font-size: 0.7rem;
+}
+
+#no_i {
+    font-style: normal;
+    color: yellow;
+    margin-left: 0.1rem;
+}
+
+#sides {
+    background-color: white;
+    border-left: solid 1rem #f94b4e;
+    border-right: solid 1rem #f94b4e;
+    border-top: solid 1rem #f94b4e;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#sides2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0.25rem 0.25rem 0;
+    background: linear-gradient(#87ceeb, #a5def5, #b4deefd6, #cce8f3d6, #e4f5fcd6, #ffffffd6, white, white);
+}
+
+#sides3 {
+    background-color: white;
+    border-left: solid 1rem orange;
+    border-right: solid 1rem orange;
+    border-bottom: solid 1rem orange;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#sides4 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0 0.25rem 0.25rem;
+}
+
+
+#back_name {
+    line-height: 3rem;
+    margin: 0 5rem;
+    font-size: 1.2rem;
+    color: floralwhite;
+}
+
+#back-bottom {
+    margin: 1rem;
+
+}
+
+#back_top_row {
+
+}
+
+#stat_tab {
+    width: 80%;
+    border: thin #5f471e solid;
+    border-collapse: collapse;
+    margin: 0 auto 1rem;
+}
+
+td{
+    font-size: 0.8rem;
+    border: thin #5f471e solid;
+    width: 33%;
+    color: #5f471e;
+}
+
+th {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: floralwhite;
+    background-color: #5f471e;
+    text-align: center;
+}
+
+.city_color {
+    color: #5f471e;
+}
+
+#contact_me {
+    color: yellow;
+    text-shadow:  0 0 1px yellow;
+}
+
+
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid floralwhite;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid floralwhite;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: red;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid floralwhite;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+
+.star-words {
+    top: 25px;
+    left: -42px;
+    position: absolute;
+    z-index: 1;
+   -webkit-transform: rotate(-50deg);
+   -moz-transform:    rotate(-50deg);
+   -ms-transform:     rotate(-50deg);
+   -o-transform:      rotate(-50deg);
+}
+
+#front_card {
+    padding-left: 3rem;
+    padding-top: 4rem;
+}
+
+#back_card {
+    padding-left: 7rem;
+}
+
+hr {
+    margin-top: 6rem;
+    width: 100%;
+
+}
