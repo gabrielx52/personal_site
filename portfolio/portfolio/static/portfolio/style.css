@@ -528,7 +528,7 @@ th {
 }
 
 #front_card {
-    padding-left: 3rem;
+    padding-left: 6rem;
     padding-top: 4rem;
 }
 
@@ -540,4 +540,37 @@ hr {
     margin-top: 6rem;
     width: 100%;
 
+}
+
+#pro1 {
+    filter: blur(0.4px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 4rem;
+    color: #e14549;
+    width: 33%;
+    margin: auto;
+}
+
+.stroke-double {
+  position: relative;
+  background: transparent;
+  z-index: 0;
+}
+
+.stroke-double:before {
+  content: attr(title);
+  position: absolute;
+  -webkit-text-stroke: 0.19em yellow;
+  left: 0;
+  z-index: -1;
+}
+
+.stroke-double:after {
+  content: attr(title);
+  position: absolute;
+  -webkit-text-stroke: 0.26em black;
+  left: 0;
+  z-index: -2;
 }
