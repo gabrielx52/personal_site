@@ -1,17 +1,4 @@
-#top_card {
-    background-color: #f94b4e;
-}
-
-#bottom_card {
-    background-color: orange;
-}
-
-.navbar {
-    padding-bottom: 0;
-} 
-
-.clip-me {
-}
+/*Navbar start*/
 
 #logo1, #logo2, #logo3, #logo4, #logo5 {
     color: #7fbfe7;
@@ -121,7 +108,6 @@
     padding-right: 1rem;
 }
 
-
 #logo4 {
     text-shadow:  0 0 2px #7fbfe7,
                   -1px 0 2px black,
@@ -181,6 +167,22 @@
     bottom: 10px;
 }
 
+.navbar {
+    padding-bottom: 0;
+} 
+
+/*Navbar end*/
+
+
+#top_card {
+    background-color: #f94b4e;
+}
+
+#bottom_card, footer {
+    background-color: orange;
+}
+
+
 #yellow {
     color: yellow;
     text-shadow:  0 0 1px yellow;
@@ -192,19 +194,6 @@
 
 .sr-only {
     color: black !important;
-}
-
-#postnav {
-}
-
-#prefooter1 {
-}
-
-#prefooter2 {
-}
-
-footer {
-    background-color: orange;
 }
 
 .spacer {
@@ -222,7 +211,6 @@ footer {
     border-radius: 50%;
     height: 100%;
     text-align: center;
-    /*margin: 1rem;*/
     box-shadow: 0 0 1px black;
     padding-bottom: 100%;
 }
@@ -246,7 +234,7 @@ footer {
 }
 
 #about_card {
-    margin-left: 4rem;
+    margin-left: 2%;
     background-color: floralwhite;
     width: 17rem !important;
     height: 23rem;
@@ -270,10 +258,6 @@ footer {
   opacity: 1;
 }
 
-#overs:hover p {
-    opacity: 1;
-}
-
 .red {
     color: #ef7676;
 }
@@ -285,7 +269,6 @@ footer {
 #card_photo {
     width: 13rem;
     height: 17rem;
-    /*border: thin black solid;*/
     margin: 1rem auto 0;
 }
 
@@ -528,12 +511,12 @@ th {
 }
 
 #front_card {
-    padding-left: 6rem;
+    padding-left: 9%;
     padding-top: 4rem;
 }
 
 #back_card {
-    padding-left: 7rem;
+    padding-left: 6%;
 }
 
 hr {
@@ -572,5 +555,44 @@ hr {
   position: absolute;
   -webkit-text-stroke: 0.26em black;
   left: 0;
+  top: 0;
   z-index: -2;
+}
+
+
+.firstone {
+    width: 60%;
+    height: 12rem;
+    border-left: 6px #2196F3 solid;
+    border-bottom: 17px #2196f3 solid;
+    border-bottom-left-radius: 77px;
+}
+
+.secondone {
+    height: 96%;
+    width: 99%;
+    border-left: 6px #e14549 solid;
+    border-bottom: 17px #e14549 solid;
+    border-bottom-left-radius: 60px;
+    position: relative;
+    right: -6px;
+}
+
+
+
+@media all and (max-width: 600px) {
+    #pro1 {
+        margin-left: 1rem; 
+    }
+    #about-para {
+    filter: blur(0.4px);
+    background-color: floralwhite;
+    box-shadow: 0 0 2px whitesmoke;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    height: 28rem;
+    margin-top: 9rem;
+    width: 18rem;
+    border: none;
+}
 }
