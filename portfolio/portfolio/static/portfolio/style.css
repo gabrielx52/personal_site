@@ -344,7 +344,7 @@
 
 #about-para {
     filter: blur(0.4px);
-    background-color: #fce6c0;
+    background-color: #fde3b7;
     box-shadow: 0 0 2px whitesmoke;
     letter-spacing: 1px;
     font-family: 'Oswald', sans-serif;
@@ -480,7 +480,7 @@
 
 #back_name {
     margin: 0 10%;
-    color: #fce6c0;
+    color: #fde3b7;
 }
 
 #back_name_two {

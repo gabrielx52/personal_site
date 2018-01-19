@@ -4,7 +4,9 @@ attrs==17.4.0
 colorama==0.3.9
 coverage==4.4.2
 decorator==4.2.1
+dj-database-url==0.4.2
 Django==2.0.1
+django-heroku==0.2.0
 docopt==0.6.2
 gunicorn==19.7.1
 ipython==6.2.1
@@ -30,3 +32,4 @@ six==1.11.0
 traitlets==4.3.2
 watchdog==0.8.3
 wcwidth==0.1.7
+whitenoise==3.3.1
