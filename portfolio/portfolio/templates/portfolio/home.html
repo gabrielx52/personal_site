@@ -1,32 +1,36 @@
 {% extends "portfolio/base.html" %}
 {% block content %}
 {% load static %}
-<div id="top_card">
+<div id="top-card">
   <div id="sides">
     <div id="sides2">
       <!-- Top half top edge -->
       <div class='spacer'></div>
-      <div class='container' id='about_section'>
+      
+      <div class='container'>
         <a name="about"></a>
         <div class='row'>  
-          <div class="col-lg-4" id="front_card">
-            <img id="over8" class="overlay" src="{% static 'portfolio/overeight.png'%}" alt="">
-            
-            <div class="card" id="about_card">
+
+
+          <div class="col-lg-4">
+             <!-- id="front_card" -->
+            <div id="front-card">
+            <img id="overlay" src="{% static 'portfolio/overeight.png'%}" alt="">
               <img id="flag" src="{% static 'portfolio/blue_tri.png'%}" alt="">
-              <p id="words"><span id="no_i"><i class="fa fa-coffee" aria-hidden="true"></i></span>C<span id="words2">O</span><span id="words3">F</span><span id="words4">F</span><span id="words5">E</span><span id="words6">E</span><span id="words7">!</span></p>
-                <div id='card_photo'>
-                  <img id="head" src="{% static 'portfolio/crop_two.png'%}" alt="">
+              <p id="words"><span><i class="fa fa-coffee" aria-hidden="true"></i></span>C<span>O</span><span>F</span><span>F</span><span>E</span><span>E</span><span>!</span></p>
+                <img id="card_photo" src="{% static 'portfolio/crop_two.png'%}" alt="">
+                <div id="card_name">
+                  <span> G</span>A<span>B</span>R<span>I</span>E<span>L </span>M<span>E</span>R<span>I</span>N<span>G</span>O<span>L</span>O
                 </div>
-                <div id="card_name"><span class="red"> G<span class="blue">A</span>B<span class="blue">R</span>I<span class="blue">E</span>L <span class="blue">M</span>E<span class="blue">R</span>I<span class="blue">N</span>G<span class="blue">O</span>L<span class="blue">O</span></span></div>
                 <div id="card_sub">
                   FULL-STACK &#8226; DEVELOPER
                 </div>
             </div>
           </div>
 
-            <div class="col-lg-6 ab_c z2" id="back_card">
-            <div class="card card-two" id="about-para">
+
+          <div class="col-lg-4 ab_c z2" id="back_card">
+            <div class="card-back" id="about-para">
               <span id="back_name_two">ABOUT ME<span id="card_sub" class="city_color">&emsp;Human - Pythonista</span></span>
               <div id="back-top-two">
                 <span id="card_sub" class="city_color">
@@ -39,7 +43,7 @@
           </div>
 
 
-          <div class="col-lg-6 ab_c abs" id="back_card">
+<!--           <div class="col-lg-4 ab_c abs" id="back_card">
             <div class="card red-back" id="about-para">
               <span id="back_name_two">MOOKIE WILSON<span id="card_sub" class="city_color">&emsp;NY Mets - Centerfielder</span></span>
               <div id="back-top-two">
@@ -51,10 +55,10 @@
                 <span id="card_sub" class="city_color"><p>'When I'm in a slump, I comfort myself by saying if I believe in dinosaurs, then somewhere, they must be believing in me. And if they believe in me, then I can believe in me. Then I bust out.'</p></span>
               </div>
             </div>
-          </div>
+          </div> -->
 
-
-          <div class="col-lg-6 card-one" id="back_card">
+<!-- 
+          <div class="col-lg-4 card-one" id="back_card">
             <div class="card" id="about-para">
               <div id="back-top">
                 <div id="back_top_row">
@@ -89,11 +93,10 @@
                 </ul></p>
               </div>
             </div>
-          </div>
-
-
+          </div> -->
 
           <hr>
+
         </div>
       </div>
     <!-- Top half bottom edge -->

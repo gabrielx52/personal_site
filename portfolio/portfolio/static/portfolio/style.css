@@ -180,7 +180,7 @@
     left: -3rem;
 }
 
-#top_card {
+#top-card {
     background-color: #f94b4e;
 }
 
@@ -252,28 +252,26 @@
     margin: auto;
 }
 
-#about_card {
+#front-card {
     margin-left: 2%;
     background-color: floralwhite;
     width: 17rem !important;
     height: 23rem;
     border: none;
     box-shadow: 0 0 2px whitesmoke;
-    filter: blur(0.5px);
+    /*filter: blur(0.5px);*/
     position: relative;
 }
 
-.overlay {
+#overlay {
     position: absolute;
     width: 17rem;
-    height: 23rem;
-    margin-left: 0.4rem;
     z-index: 10;
     opacity: 0;
 
 }
 
-.overlay:hover {
+#overlay:hover {
   opacity: 1;
 }
 
@@ -297,16 +295,16 @@
     color: #1aaf1a;
 }
 
-#card_photo {
-    width: 13rem;
-    height: 17rem;
-    margin: 1rem auto 0;
-}
-
 #card_name {
     font-size: 1.5rem;
     font-weight: 700;
+    color: #ef7676;
 }
+
+#card_name span {
+    color: #7fbfe7;
+}
+
 
 #card_sub {
     font-size: 0.8rem;
@@ -324,8 +322,9 @@
     z-index: 1;
 }
 
-#head {
-    max-height: 17rem;
+#card_photo {
+    width: 90%;
+    margin: 0.4rem 5% 0;
     filter: saturate(0.8) contrast(1.2);
 }
 
@@ -343,7 +342,7 @@
 }
 
 #about-para {
-    filter: blur(0.4px);
+    /*filter: blur(0.4px);*/
     background-color: #fde3b7;
     box-shadow: 0 0 2px whitesmoke;
     letter-spacing: 1px;
@@ -403,38 +402,37 @@
     z-index: 2;
 }
 
-.card-two {
+.card-back {
     background-color: #6aa94b !important;
 }
 
-#words2 {
+#words span:nth-child(1) {
+  margin-left: 0.1rem;
+  color: yellow;
+}
+
+#words span:nth-child(2) {
  font-size: 1.8rem;
 }
 
-#words3 {
+#words span:nth-child(3) {
     font-size: 1.5rem;
 }
 
-#words4 {
+#words span:nth-child(4) {
     font-size: 1.3rem;
 }
 
-#words5 {
+#words span:nth-child(5) {
     font-size: 1.1rem;
 }
 
-#words6 {
+#words span:nth-child(6) {
     font-size: 0.9rem;
 }
 
-#words7 {
+#words span:nth-child(7) {
     font-size: 0.7rem;
-}
-
-#no_i {
-    font-style: normal;
-    color: yellow;
-    margin-left: 0.1rem;
 }
 
 #sides {
@@ -537,7 +535,7 @@ hr {
 }
 
 #pro1 {
-    filter: blur(0.4px);
+    /*filter: blur(0.4px);*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-style: italic;
@@ -576,7 +574,7 @@ hr {
     height: 23rem;
     border: none;
     box-shadow: 0 0 2px whitesmoke;
-    filter: blur(0.5px);
+    /*filter: blur(0.5px);*/
     position: relative;
     margin: 2rem 0;
 }
@@ -666,14 +664,14 @@ hr {
     font-size: 6rem !important;
     text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
     margin-right: 1%;
-    filter: blur(0.4px);
+    /*filter: blur(0.4px);*/
 }
 @media all and (max-width: 600px) {
     #pro1 {
         margin-left: 1rem; 
     }
     #about-para {
-    filter: blur(0.4px);
+    /*filter: blur(0.4px);*/
     background-color: floralwhite;
     box-shadow: 0 0 2px whitesmoke;
     letter-spacing: 1px;
@@ -690,7 +688,7 @@ hr {
         transform: rotate(0deg);
         margin: 0;  
     }
-    .card-one, .ab_c, #front_card, .card, .card-two, #about_card {
+    .card-one, .ab_c, #front_card, .card, .card-back, #front-card {
         transform: rotate(0deg);
         margin: auto;
         position: relative;
@@ -698,7 +696,7 @@ hr {
         left: 0;
         padding-top: 0;
     }
-    .overlay {
+    #overlay {
         margin-left: 6%;
     }
     hr {
