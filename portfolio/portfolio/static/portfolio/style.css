@@ -1,3 +1,7 @@
+body {
+    filter: blur(0.4px);
+}
+
 /*Navbar start*/
 
 #logo1, #logo2, #logo3, #logo4, #logo5 {
@@ -217,7 +221,7 @@
 /*About section */
 
 #about-section {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 /*Photo card */
@@ -382,7 +386,7 @@
 #skill-card {
     transform: rotate(-10deg);
     position: relative;
-    margin-top: -48%;
+    margin-top: -67%;
     margin-left: 76%;
     z-index: 3;
     box-shadow: 0 0 2px whitesmoke;
@@ -445,15 +449,18 @@ th {
 /*Skills card ends*/
 
 #cat-card {
-    z-index: 10;
+    z-index: 0;
+    transform: rotate(-209deg);
+    margin-top: -93%;
+    margin-left: 30%;
     position: relative;
 }
 
 #red-back {
     position: relative;
     transform: rotate(123deg);
-    margin-left: -141%;
-    margin-top: 26%;
+    margin-left: -187%;
+    margin-top: 25%;
     background-color: #ef7676;
     z-index: 1;
 }
@@ -691,38 +698,36 @@ hr {
     font-size: 6rem !important;
     text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
     margin-right: 1%;
-    /*filter: blur(0.4px);*/
+
 }
 @media all and (max-width: 600px) {
     #pro1 {
         margin-left: 1rem; 
     }
     #about-para, #skill-card {
-    box-shadow: 0 0 2px whitesmoke;
-    letter-spacing: 1px;
-    font-family: 'Oswald', sans-serif;
-    height: 23rem;
-    /*margin-top: 2rem;*/
-    width: 17rem;
-    margin: 2rem auto;
+        box-shadow: 0 0 2px whitesmoke;
+        letter-spacing: 1px;
+        font-family: 'Oswald', sans-serif;
+        height: 23rem;
+        width: 17rem;
+        margin: 2rem auto;
     }
     #skill-card h3 {
-      font-size: 1.2rem;
-      display: block;
+        font-size: 1.2rem;
+        display: block;
     }
     #skill-sub {
-      margin-left: 10%;
+        margin-left: 10%;
     }
     .fa-trophy {
         font-size: 3rem !important;
     }
     #l_pc, #r_pc {
-        /*transform: rotate(0deg);*/
         margin: 0;  
     }
     #c_pc {
-      transform: rotate(-7deg);
-      margin-bottom: -2%;
+        transform: rotate(-7deg);
+        margin-bottom: -2%;
     }
     #overlay {
         margin-left: -2%;
@@ -731,9 +736,17 @@ hr {
         display: none;
     }
     .spacer, .spacer2 {
-      height: 0;
+        height: 0;
     }
     #about-section {
-      margin-top: 2rem;
+        margin-top: 2rem;
+    }
+    #cat-card {
+        margin-left: 5%;
+        transform: rotate(191deg);
+        margin-top: -125%;
+    }
+    #cat-card:hover {
+      z-index: 10;
     }
 }
