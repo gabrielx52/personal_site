@@ -756,5 +756,8 @@ hr {
     }
     #no-nav {
       visibility: visible;
+    }
+    body {
+    filter: blur(0px);
 }
 }
