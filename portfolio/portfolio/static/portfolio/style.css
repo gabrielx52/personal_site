@@ -700,6 +700,11 @@ hr {
     margin-right: 1%;
 
 }
+
+#no-nav {
+  visibility: hidden;
+}
+
 @media all and (max-width: 600px) {
     #pro1 {
         margin-left: 1rem; 
@@ -749,4 +754,7 @@ hr {
     #cat-card:hover {
       z-index: 10;
     }
+    #no-nav {
+      visibility: visible;
+}
 }
